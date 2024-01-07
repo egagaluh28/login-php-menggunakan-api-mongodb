@@ -1,0 +1,50 @@
+.gradient-custom-2 {
+  background: #fccb90;
+
+  background: -webkit-linear-gradient(
+    to right,
+    #64ccc5,
+    #176b87,
+    #053b50,
+    #013c53
+  );
+
+  background: linear-gradient(to right, #64ccc5, #176b87, #053b50, #013c53);
+}
+/* Ganti warna teks link dalam tombol menjadi hitam */
+.btn-dark a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* Untuk menghapus garis bawah default pada link */
+  background-color: #009fde;
+}
+
+/* Ganti warna background tombol dan teks saat hover */
+.btn-dark:hover {
+  background-color: #176b87;
+  border-color: #176b87;
+}
+
+/* Ganti warna teks saat tombol dalam keadaan hover */
+.btn-dark:hover a {
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+i {
+  color: #007aaa;
+}
+i:hover {
+  color: #009fde;
+}
